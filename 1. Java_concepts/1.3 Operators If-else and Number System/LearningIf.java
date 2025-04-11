@@ -1,7 +1,7 @@
 public class LearningIf {
     public static void main(String[] args) {
         boolean isMale = true;
-        String name = "Bob";
+        String name = "John Doe";
 
         System.out.println("before if");
         if (isMale) {
