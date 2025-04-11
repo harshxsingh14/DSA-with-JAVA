@@ -4,7 +4,7 @@ public class Relational {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Driving License Portal");
-        System.out.print("Please enter your age: ");
+        System.out.print("Enter your age: ");
         int age = input.nextInt();
 
         if (age >= 18) {
