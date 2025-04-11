@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Shorthand {
     public static void main(String[] args) {
-        int a = 5;
+        int a = 6;
         Scanner input = new Scanner(System.in);
         int x1 = input.nextInt();
         a = a + x1;
