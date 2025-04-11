@@ -6,7 +6,7 @@ public class Unary {
         System.out.println(z);
 
 
-        int a = 5;
+        int a = 4;
         a = a + 1;
         System.out.println(a);
         a += 1;
