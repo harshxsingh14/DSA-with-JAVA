@@ -9,7 +9,7 @@ public class Logical {
         System.out.print("Are you a female? (true/false) ");
         boolean isFemale = input.nextBoolean();
 
-        if (age < 5) {
+        if (age < 7) {
             System.out.println("You got 75% discount");
         } else if (isFemale) {
             System.out.println("You got 50% discount");
