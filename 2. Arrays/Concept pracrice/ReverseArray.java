@@ -3,7 +3,7 @@ class ReverseArray {
         System.out.println("Welcome to Array Reversal\n");
         int[] numArr = ArrayUtility2.inputArray();
         reverse(numArr);
-        System.out.println("Your reversed array is");
+        System.out.println("your reversed array is");
         ArrayUtility2.displayArray(numArr);
     }
 
