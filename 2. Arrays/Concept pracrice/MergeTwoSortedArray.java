@@ -4,7 +4,7 @@ class MergeTwoSortedArray {
         int[] arr1 = ArrayUtility.inputArray();
         int[] arr2 = ArrayUtility.inputArray();
         int[] mergedArr = merge(arr1, arr2);
-        System.out.println("Your merged array is:");
+        System.out.println("your merged array is:");
         ArrayUtility.displayArray(mergedArr);
     }
 
