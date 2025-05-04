@@ -5,7 +5,7 @@ class OccurrencesArray {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Array Occurrences\n");
         int[] numArr = ArrayUtility.inputArray();
-        System.out.print("Now enter the number you want to find: ");
+        System.out.print("Enter the number you want to find: ");
         int num = input.nextInt();
         int occurrences = noOfOccurrences(numArr, num);
         System.out.println("Your element was found " + occurrences + " times in the array");
