@@ -1,0 +1,3 @@
+*.class
+
+#it is to remove .class file during commmit
