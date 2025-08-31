@@ -28,5 +28,7 @@ public class input {
         str[1] = "Harsh";
 
         System.out.println(Arrays.toString(str));
+
+        in.close();
     }
 }
