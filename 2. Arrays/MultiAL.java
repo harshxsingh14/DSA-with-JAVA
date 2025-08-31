@@ -18,5 +18,6 @@ public class MultiAL {
         }
 
         System.out.println(list);
+        in.close();
     }
 }
