@@ -46,9 +46,10 @@ class Main {
     // hashDemo();
     HashMap1<String, String> map = new HashMap1<>();
     
-    map.put("Mango", "King of fruits");
-    map.put("Apple", "A sweet red fruit");
-    map.put("Litchi", "Kunal's fav fruit");
+map.put("Ferrari LaFerrari", "A hybrid hypercar with a V12 engine and F1-inspired electric boost");
+map.put("Bugatti Chiron", "A record-breaking hypercar with a quad-turbo W16 engine");
+map.put("Lamborghini Aventador", "A flagship V12 supercar with aggressive design and raw power");
+
 
     System.out.println(map);
     
@@ -56,23 +57,16 @@ class Main {
   }
 
   public static void hashDemo() {
-    // String name = "Rahul";
-
-    // Integer a = 4235678;
-
-    // int code = a.hashCode();
-
-    // System.out.println(code);
 
     HashMap<String, Integer> map = new HashMap<>();
 
-    map.put("Kunal", 89);
-    map.put("Karan", 99);
-    map.put("Rahul", 94);
+    map.put("harsh", 29);
+    map.put("Sachin", 19);
+    map.put("Rahul", 44);
 
-    // System.out.println(map.get("Karan"));
+    // System.out.println(map.get("Sachin"));
     // System.out.println(map.getOrDefault("Apoorv", 78));
-    System.out.println(map.containsKey("Karan"));
+    System.out.println(map.containsKey("Sachin"));
 
     HashSet<Integer> set = new HashSet<>();
     set.add(56);
