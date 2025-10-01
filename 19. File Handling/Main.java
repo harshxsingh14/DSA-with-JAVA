@@ -1,13 +1,12 @@
 import java.io.*;
 import java.io.IOException;
-//import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
 
     // create
     try {
-      File fo = new File("new-file.txt");
+      File fo = new File("file.txt");
       fo.createNewFile();
     } catch (IOException e) {
       System.out.println(e.getMessage());
