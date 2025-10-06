@@ -1,0 +1,32 @@
+import java.util.HashSet;
+
+public class TwoSum {
+
+    public boolean findTarget(TreeNode root, int k) {
+        HashSet<Integer> set = new HashSet<>();
+        return helper(root, k, set);
+    }
+
+    private boolean helper(TreeNode node, int k, HashSet<Integer> set) {
+        if (node == null) return false;
+
+        if (set.contains(k - node.val))
+            return true;
+
+        set.add(node.val);
+        return helper(node.left, k, set) || helper(node.right, k, set);
+    }
+
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(3);
+        root.right = new TreeNode(6);
+        root.left.left = new TreeNode(2);
+        root.left.right = new TreeNode(4);
+        root.right.right = new TreeNode(7);
+
+        TwoSum obj = new TwoSum();
+        System.out.println(obj.findTarget(root, 9));  
+        System.out.println(obj.findTarget(root, 28));
+    }
+}
