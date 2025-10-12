@@ -1,3 +1,5 @@
+import java.util.PriorityQueue;
+
 class KthSmallest1 {
   public int kthSmallest(TreeNode root, int k) {
     PriorityQueue<Integer> minHeap = new PriorityQueue<>();
@@ -5,7 +7,7 @@ class KthSmallest1 {
 
     // remove k elements
     int ans = 0;
-    for(int i=0; i<k; i++) {
+    for (int i = 0; i < k; i++) {
       ans = minHeap.poll();
     }
     return ans;
@@ -17,9 +19,7 @@ class KthSmallest1 {
     }
 
     helper(node.left, minHeap, k);
-
     minHeap.offer(node.val);
-    
     helper(node.right, minHeap, k);
   }
 }
