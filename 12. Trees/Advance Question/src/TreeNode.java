@@ -6,3 +6,5 @@ public class TreeNode {
         val = x;
     }
 }
+
+//tree node program
