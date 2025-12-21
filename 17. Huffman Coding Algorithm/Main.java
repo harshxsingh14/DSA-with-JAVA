@@ -1,6 +1,6 @@
 class Main {
   public static void main(String[] args) throws Exception{
-    String str = "HarshSingh";
+    String str = "Harsh Singh";
       HuffmanCoder hf = new HuffmanCoder(str);
     String a = hf.encode(str);
     System.out.println(a);
