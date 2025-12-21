@@ -6,7 +6,7 @@ class HuffmanCoder {
 
   private class Node implements Comparable<Node> {
     Character data;
-    int cost; // frequency
+    int cost;
     Node left;
     Node right;
 
