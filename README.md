@@ -1,4 +1,4 @@
-# 💻 DSA with JAVA
+#  DSA with JAVA
 
 Welcome to my journey of learning **Data Structures and Algorithms** using **Java**!  
 This repo contains well-organized, beginner-friendly Java solutions to common DSA problems as I continue to level up my Java skills.
