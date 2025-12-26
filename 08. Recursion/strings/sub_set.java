@@ -33,7 +33,7 @@ public class sub_set {
         int end = 0;
         for (int i = 0; i < arr.length; i++) {
             start = 0;
-            // if current and previous element is same, s = e + 1
+
             if (i > 0 && arr[i] == arr[i-1]) {
                 start = end + 1;
             }
