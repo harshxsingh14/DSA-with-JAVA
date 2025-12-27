@@ -57,7 +57,7 @@ public class RotationCount {
                 }
                 end--;
             }
-            // left side is sorted, so pivot should be in right
+            
             else if(arr[start] < arr[mid] || (arr[start] == arr[mid] && arr[mid] > arr[end])) {
                 start = mid + 1;
             } else {
