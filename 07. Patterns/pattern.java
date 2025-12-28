@@ -96,7 +96,7 @@ public class pattern {
             for (int col = 1; col <= n-row+1; col++) {
                 System.out.print("* ");
             }
-            // when one row is printed, we need to add a newline
+            
             System.out.println();
         }
     }
